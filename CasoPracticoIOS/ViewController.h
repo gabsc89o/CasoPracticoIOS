@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tabla.h"
+#import "GestorRestaurante.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate>
 
+{
+    Tabla *_tablaRes;
+    GestorRestaurante *_gestorRes;
+}
+
+@property IBOutlet UITableView *tvRestaurante;
 
 @end
 

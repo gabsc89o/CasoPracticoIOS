@@ -15,6 +15,11 @@
 		AA2F541720A0926000637F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F541620A0926000637F68 /* main.m */; };
 		AA2F542120A0926000637F68 /* CasoPracticoIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F542020A0926000637F68 /* CasoPracticoIOSTests.m */; };
 		AA2F542C20A0926000637F68 /* CasoPracticoIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F542B20A0926000637F68 /* CasoPracticoIOSUITests.m */; };
+		AA2F543B20A092BE00637F68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F543A20A092BD00637F68 /* MapKit.framework */; };
+		AA2F543E20A092E300637F68 /* SegundaVista.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F543D20A092E300637F68 /* SegundaVista.m */; };
+		AA2F544120A0930B00637F68 /* Restaurante.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F544020A0930B00637F68 /* Restaurante.m */; };
+		AA2F544420A0931D00637F68 /* Tabla.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F544320A0931D00637F68 /* Tabla.m */; };
+		AA2F544720A0933300637F68 /* GestorRestaurante.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F544620A0933300637F68 /* GestorRestaurante.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		AA2F542720A0926000637F68 /* CasoPracticoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPracticoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F542B20A0926000637F68 /* CasoPracticoIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasoPracticoIOSUITests.m; sourceTree = "<group>"; };
 		AA2F542D20A0926000637F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F543A20A092BD00637F68 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AA2F543C20A092E300637F68 /* SegundaVista.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegundaVista.h; sourceTree = "<group>"; };
+		AA2F543D20A092E300637F68 /* SegundaVista.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegundaVista.m; sourceTree = "<group>"; };
+		AA2F543F20A0930B00637F68 /* Restaurante.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Restaurante.h; sourceTree = "<group>"; };
+		AA2F544020A0930B00637F68 /* Restaurante.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurante.m; sourceTree = "<group>"; };
+		AA2F544220A0931D00637F68 /* Tabla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabla.h; sourceTree = "<group>"; };
+		AA2F544320A0931D00637F68 /* Tabla.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tabla.m; sourceTree = "<group>"; };
+		AA2F544520A0933300637F68 /* GestorRestaurante.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestorRestaurante.h; sourceTree = "<group>"; };
+		AA2F544620A0933300637F68 /* GestorRestaurante.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestorRestaurante.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2F543B20A092BE00637F68 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				AA2F541F20A0926000637F68 /* CasoPracticoIOSTests */,
 				AA2F542A20A0926000637F68 /* CasoPracticoIOSUITests */,
 				AA2F540520A0925C00637F68 /* Products */,
+				AA2F543920A092BD00637F68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +126,14 @@
 				AA2F541220A0926000637F68 /* LaunchScreen.storyboard */,
 				AA2F541520A0926000637F68 /* Info.plist */,
 				AA2F541620A0926000637F68 /* main.m */,
+				AA2F544520A0933300637F68 /* GestorRestaurante.h */,
+				AA2F544620A0933300637F68 /* GestorRestaurante.m */,
+				AA2F543C20A092E300637F68 /* SegundaVista.h */,
+				AA2F543D20A092E300637F68 /* SegundaVista.m */,
+				AA2F543F20A0930B00637F68 /* Restaurante.h */,
+				AA2F544020A0930B00637F68 /* Restaurante.m */,
+				AA2F544220A0931D00637F68 /* Tabla.h */,
+				AA2F544320A0931D00637F68 /* Tabla.m */,
 			);
 			path = CasoPracticoIOS;
 			sourceTree = "<group>";
@@ -130,6 +154,14 @@
 				AA2F542D20A0926000637F68 /* Info.plist */,
 			);
 			path = CasoPracticoIOSUITests;
+			sourceTree = "<group>";
+		};
+		AA2F543920A092BD00637F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F543A20A092BD00637F68 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2F544420A0931D00637F68 /* Tabla.m in Sources */,
+				AA2F544120A0930B00637F68 /* Restaurante.m in Sources */,
 				AA2F540C20A0925C00637F68 /* ViewController.m in Sources */,
+				AA2F544720A0933300637F68 /* GestorRestaurante.m in Sources */,
 				AA2F541720A0926000637F68 /* main.m in Sources */,
 				AA2F540920A0925C00637F68 /* AppDelegate.m in Sources */,
+				AA2F543E20A092E300637F68 /* SegundaVista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
