@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2F540920A0925C00637F68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F540820A0925C00637F68 /* AppDelegate.m */; };
+		AA2F540C20A0925C00637F68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F540B20A0925C00637F68 /* ViewController.m */; };
+		AA2F540F20A0925C00637F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F540D20A0925C00637F68 /* Main.storyboard */; };
+		AA2F541120A0926000637F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F541020A0926000637F68 /* Assets.xcassets */; };
+		AA2F541420A0926000637F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F541220A0926000637F68 /* LaunchScreen.storyboard */; };
+		AA2F541720A0926000637F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F541620A0926000637F68 /* main.m */; };
+		AA2F542120A0926000637F68 /* CasoPracticoIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F542020A0926000637F68 /* CasoPracticoIOSTests.m */; };
+		AA2F542C20A0926000637F68 /* CasoPracticoIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F542B20A0926000637F68 /* CasoPracticoIOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2F541D20A0926000637F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F53FC20A0925C00637F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F540320A0925C00637F68;
+			remoteInfo = CasoPracticoIOS;
+		};
+		AA2F542820A0926000637F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F53FC20A0925C00637F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F540320A0925C00637F68;
+			remoteInfo = CasoPracticoIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2F540420A0925C00637F68 /* CasoPracticoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasoPracticoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F540720A0925C00637F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA2F540820A0925C00637F68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA2F540A20A0925C00637F68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA2F540B20A0925C00637F68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA2F540E20A0925C00637F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2F541020A0926000637F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2F541320A0926000637F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA2F541520A0926000637F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F541620A0926000637F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA2F541C20A0926000637F68 /* CasoPracticoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPracticoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F542020A0926000637F68 /* CasoPracticoIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasoPracticoIOSTests.m; sourceTree = "<group>"; };
+		AA2F542220A0926000637F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F542720A0926000637F68 /* CasoPracticoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPracticoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F542B20A0926000637F68 /* CasoPracticoIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasoPracticoIOSUITests.m; sourceTree = "<group>"; };
+		AA2F542D20A0926000637F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2F540120A0925C00637F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F541920A0926000637F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F542420A0926000637F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2F53FB20A0925C00637F68 = {
+			isa = PBXGroup;
+			children = (
+				AA2F540620A0925C00637F68 /* CasoPracticoIOS */,
+				AA2F541F20A0926000637F68 /* CasoPracticoIOSTests */,
+				AA2F542A20A0926000637F68 /* CasoPracticoIOSUITests */,
+				AA2F540520A0925C00637F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2F540520A0925C00637F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F540420A0925C00637F68 /* CasoPracticoIOS.app */,
+				AA2F541C20A0926000637F68 /* CasoPracticoIOSTests.xctest */,
+				AA2F542720A0926000637F68 /* CasoPracticoIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2F540620A0925C00637F68 /* CasoPracticoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F540720A0925C00637F68 /* AppDelegate.h */,
+				AA2F540820A0925C00637F68 /* AppDelegate.m */,
+				AA2F540A20A0925C00637F68 /* ViewController.h */,
+				AA2F540B20A0925C00637F68 /* ViewController.m */,
+				AA2F540D20A0925C00637F68 /* Main.storyboard */,
+				AA2F541020A0926000637F68 /* Assets.xcassets */,
+				AA2F541220A0926000637F68 /* LaunchScreen.storyboard */,
+				AA2F541520A0926000637F68 /* Info.plist */,
+				AA2F541620A0926000637F68 /* main.m */,
+			);
+			path = CasoPracticoIOS;
+			sourceTree = "<group>";
+		};
+		AA2F541F20A0926000637F68 /* CasoPracticoIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F542020A0926000637F68 /* CasoPracticoIOSTests.m */,
+				AA2F542220A0926000637F68 /* Info.plist */,
+			);
+			path = CasoPracticoIOSTests;
+			sourceTree = "<group>";
+		};
+		AA2F542A20A0926000637F68 /* CasoPracticoIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F542B20A0926000637F68 /* CasoPracticoIOSUITests.m */,
+				AA2F542D20A0926000637F68 /* Info.plist */,
+			);
+			path = CasoPracticoIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2F540320A0925C00637F68 /* CasoPracticoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F543020A0926000637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOS" */;
+			buildPhases = (
+				AA2F540020A0925C00637F68 /* Sources */,
+				AA2F540120A0925C00637F68 /* Frameworks */,
+				AA2F540220A0925C00637F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasoPracticoIOS;
+			productName = CasoPracticoIOS;
+			productReference = AA2F540420A0925C00637F68 /* CasoPracticoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2F541B20A0926000637F68 /* CasoPracticoIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F543320A0926100637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOSTests" */;
+			buildPhases = (
+				AA2F541820A0926000637F68 /* Sources */,
+				AA2F541920A0926000637F68 /* Frameworks */,
+				AA2F541A20A0926000637F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2F541E20A0926000637F68 /* PBXTargetDependency */,
+			);
+			name = CasoPracticoIOSTests;
+			productName = CasoPracticoIOSTests;
+			productReference = AA2F541C20A0926000637F68 /* CasoPracticoIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA2F542620A0926000637F68 /* CasoPracticoIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F543620A0926100637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOSUITests" */;
+			buildPhases = (
+				AA2F542320A0926000637F68 /* Sources */,
+				AA2F542420A0926000637F68 /* Frameworks */,
+				AA2F542520A0926000637F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2F542920A0926000637F68 /* PBXTargetDependency */,
+			);
+			name = CasoPracticoIOSUITests;
+			productName = CasoPracticoIOSUITests;
+			productReference = AA2F542720A0926000637F68 /* CasoPracticoIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2F53FC20A0925C00637F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = user138066;
+				TargetAttributes = {
+					AA2F540320A0925C00637F68 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AA2F541B20A0926000637F68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA2F540320A0925C00637F68;
+					};
+					AA2F542620A0926000637F68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA2F540320A0925C00637F68;
+					};
+				};
+			};
+			buildConfigurationList = AA2F53FF20A0925C00637F68 /* Build configuration list for PBXProject "CasoPracticoIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2F53FB20A0925C00637F68;
+			productRefGroup = AA2F540520A0925C00637F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2F540320A0925C00637F68 /* CasoPracticoIOS */,
+				AA2F541B20A0926000637F68 /* CasoPracticoIOSTests */,
+				AA2F542620A0926000637F68 /* CasoPracticoIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2F540220A0925C00637F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F541420A0926000637F68 /* LaunchScreen.storyboard in Resources */,
+				AA2F541120A0926000637F68 /* Assets.xcassets in Resources */,
+				AA2F540F20A0925C00637F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F541A20A0926000637F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F542520A0926000637F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2F540020A0925C00637F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F540C20A0925C00637F68 /* ViewController.m in Sources */,
+				AA2F541720A0926000637F68 /* main.m in Sources */,
+				AA2F540920A0925C00637F68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F541820A0926000637F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F542120A0926000637F68 /* CasoPracticoIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F542320A0926000637F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F542C20A0926000637F68 /* CasoPracticoIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2F541E20A0926000637F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F540320A0925C00637F68 /* CasoPracticoIOS */;
+			targetProxy = AA2F541D20A0926000637F68 /* PBXContainerItemProxy */;
+		};
+		AA2F542920A0926000637F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F540320A0925C00637F68 /* CasoPracticoIOS */;
+			targetProxy = AA2F542820A0926000637F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA2F540D20A0925C00637F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2F540E20A0925C00637F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA2F541220A0926000637F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2F541320A0926000637F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2F542E20A0926000637F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA2F542F20A0926000637F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2F543120A0926000637F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2F543220A0926000637F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA2F543420A0926100637F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasoPracticoIOS.app/CasoPracticoIOS";
+			};
+			name = Debug;
+		};
+		AA2F543520A0926100637F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasoPracticoIOS.app/CasoPracticoIOS";
+			};
+			name = Release;
+		};
+		AA2F543720A0926100637F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasoPracticoIOS;
+			};
+			name = Debug;
+		};
+		AA2F543820A0926100637F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CasoPracticoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telefonica.CasoPracticoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasoPracticoIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2F53FF20A0925C00637F68 /* Build configuration list for PBXProject "CasoPracticoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F542E20A0926000637F68 /* Debug */,
+				AA2F542F20A0926000637F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2F543020A0926000637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F543120A0926000637F68 /* Debug */,
+				AA2F543220A0926000637F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2F543320A0926100637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F543420A0926100637F68 /* Debug */,
+				AA2F543520A0926100637F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2F543620A0926100637F68 /* Build configuration list for PBXNativeTarget "CasoPracticoIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F543720A0926100637F68 /* Debug */,
+				AA2F543820A0926100637F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2F53FC20A0925C00637F68 /* Project object */;
+}
