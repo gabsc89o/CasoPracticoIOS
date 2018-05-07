@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _nombre.text = _restau.nombre;
-    _descrip.text = _restau.desc;
+    _descrip2.text = _restau.desc;
     CLLocationCoordinate2D location;
     location.latitude = _restau.lat;
     location.longitude =  _restau.lon ;
@@ -26,11 +26,36 @@
     [_mapa setRegion:region animated:NO];
     CLLocationCoordinate2D location2 =CLLocationCoordinate2DMake(_restau.lat, _restau.lon);
     MKPointAnnotation *marcador = [[MKPointAnnotation alloc] init];
-    // Al marcador le daremos una posicion, un titulo y un subtitulo
     [ marcador setCoordinate:location2];
-    [ marcador setTitle:@"Ponemos un titulo" ];
-    [ marcador setSubtitle:@"Y un subtitulo" ];
-    // Añadimos el marcador al mapa
+    switch (_restau.ResId) {
+        case 1:
+            [ marcador setTitle:@"El Nacional" ];
+            [ marcador setSubtitle:@"Cuatro tipos de cocina en cuatro espacios" ];
+            break;
+        case 2:
+            [ marcador setTitle:@"9Reinas" ];
+            [ marcador setSubtitle:@"Recetas argentinas y carnes del mundo" ];
+            break;
+        case 3:
+            [ marcador setTitle:@"Bellavista del Jardín del Norte" ];
+            [ marcador setSubtitle:@"Recrea los coloridos lugares de un pueblo" ];
+            break;
+        case 4:
+            [ marcador setTitle:@"7 Portes" ];
+            [ marcador setSubtitle:@"Cocina catalana y paellas" ];
+            break;
+        case 5:
+            [ marcador setTitle:@"Salamanca" ];
+            [ marcador setSubtitle:@"Cocina Mediterránea" ];
+            break;
+        case 6:
+            [ marcador setTitle:@"Blavis" ];
+            [ marcador setSubtitle:@"Cenas de cocina casera" ];
+            break;
+        default:
+            break;
+    }
+
     [ _mapa addAnnotation:marcador ];
     
 }

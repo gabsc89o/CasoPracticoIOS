@@ -14,10 +14,12 @@
 @property NSString *desc;
 @property double lon;
 @property double lat;
+@property int ResId;
 
 -(id) initConNombre:(NSString *)nombre
         descripcion:(NSString *)descripcion
            longitud:(double)longitud
-            latitud:(double)latitud;
+            latitud:(double)latitud
+            identif:(int)identif;
 
 @end

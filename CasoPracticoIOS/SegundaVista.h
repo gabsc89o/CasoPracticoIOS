@@ -12,14 +12,8 @@
 
 @interface SegundaVista : UIViewController
 
-{
-    double longi;
-    double lati;
-}
-
 @property Restaurante *restau;
 @property IBOutlet UILabel *nombre;
-@property IBOutlet UILabel *descrip;
 @property IBOutlet MKMapView *mapa;
 @property IBOutlet UITextView *descrip2;
 

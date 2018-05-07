@@ -10,12 +10,13 @@
 
 @implementation Restaurante
 
--(id) initConNombre:(NSString *)nombre descripcion:(NSString *)descripcion longitud:(double)longitud latitud:(double)latitud{
+-(id) initConNombre:(NSString *)nombre descripcion:(NSString *)descripcion longitud:(double)longitud latitud:(double)latitud identif:(int)identif {
     if (self = [super init]) {
         _nombre = nombre;
         _desc = descripcion;
         _lon = longitud;
         _lat = latitud;
+        _ResId = identif;
     }
     return self;
 }
